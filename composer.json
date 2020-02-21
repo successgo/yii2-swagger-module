@@ -1,0 +1,29 @@
+{
+    "name": "successgo/yii2-swagger-module",
+    "description": "Yii2 swagger module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Success Go",
+            "email": "SuccessGao@protonmail.ch"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "yiisoft/yii2": "^2.0.14",
+        "light/yii2-swagger": "^1.0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "successgo\\yii\\modules\\swagger\\": "."
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
