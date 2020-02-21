@@ -10,11 +10,11 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
-    "require-dev": {
+    "require": {
         "yiisoft/yii2": "^2.0.14",
         "light/yii2-swagger": "^1.0.7"
     },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
             "successgo\\yii\\modules\\swagger\\": "."
